@@ -1,0 +1,300 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#header>.navbar>ol{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+#header>.navbar>ol>li{
+    list-style: none;
+    /* background-color: #d806; */
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    transition: 2s;
+}
+#header>.navbar>ol>li>a{
+    text-decoration: none;
+    color: white;
+}
+#header>.logo>a{
+    text-decoration: none;
+    color: white;
+}
+li:hover{
+    border: 2px solid white;
+    transition: 1s ease-in-out;
+}
+/* nav section end */
+
+/* home section  */
+#home{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 5%;
+    height: 400px;
+    width: 90%;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#home>.home_details>h1,p,a{
+    color: white;
+}
+.con_btn{
+    width: 130px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 13px;
+    border: 0px;
+}
+.con_btn:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    transition: 1.5s;
+}
+/* shop section */
+#shop{
+    margin-left: 5%;
+    width: 90%;
+    height: 100vh;
+    margin-top: 20px;
+   
+}
+.ring,.flower,.watch,.teddy,.bookey,.watch_1,.ring_1,.teddy_1{   
+    width: 8rem;
+    height: 10rem;
+}
+#shop>.shop_count>.shop_cart{
+    width: 280px;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.p{
+    color: white;
+}
+.shop_cart>div{
+    color: white;
+}
+
+#shop>.shop_count>.price_detail>h4,p{
+    color: white;
+}
+.shop_count{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 30px;
+}
+
+/* see more section */
+#see_more{  
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 5%;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 30px;
+}
+#see_more>.img{
+    width: 300px;
+    height: 600px;
+    /* background-color: #fff; */
+}
+#see_more>.img>img{
+   margin-top: 20%;
+}
+#see_more>.content{
+    width: 500px;
+    height: 500px;
+    /* background-color: #fff; */
+    margin-top: 10%;
+}
+#see_more>.content>h1,p{
+    color: white ;
+    text-align: center ;
+}
+.see{
+    margin-left: 30px;
+}
+.buy{
+    margin-left: 80px;
+}
+#see_more>.content>a>button{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    width: 180px;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+}
+#see_more>.content>a>button:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+/* why section */
+.head_cont{
+    text-align: center;
+    
+}
+
+.cont_1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.why{
+    margin-top: 50px;
+    width: 90%;
+    margin-left:5%;
+    height: 70vh;
+    /* background-color: violet; */
+}
+.free,.truck,.quality{
+    width: 55px;
+    height: 55px;
+}
+
+.truck_1,.free_1,.quality_1{
+    width: 200px;
+    height: 280px ;
+    text-align: center; 
+}
+
+.truck_1>h4,p{
+    color: black;
+}
+
+/* gift section */
+.gift_loved{
+    width: 90%;
+    height: 80vh;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 30px;
+}
+.gift_loved>.gifts{
+    width: 500px;
+    height: 400px;
+}
+.gift_cont{
+    margin-top: 70px;
+}
+.gift_loved>.gift_cont>a>button:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    transition: 1s;
+}
+.gift_cont>h2,p{
+    text-align: left;
+    color: white;
+}
+.gift_loved>.gifts>img{
+    width: 355px;
+    height: 375px;
+}
+.gift_loved>.gift_cont>a>button{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;   
+    width: 180px;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+    margin-left: 0;
+}
+.gift_loved>.gift_cont>a>.see{
+    margin-left: 20px;
+}
+.contact{
+    margin-top: 20px;
+    width: 90%;
+    height: 80vh;
+    border-radius: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 5%;
+}
+.contact>h2{
+    color: white;
+    font-size: 50px;
+}
+.contact>.login_div{
+    width: 400px;
+    height: 400px;
+
+}
+.contact>.login_div>label{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-left: 30px;
+}
+.contact>.login_div>input{
+    margin-left: 30px;
+    width: 200px;
+    height: 28px;
+    border: none;
+    border-radius: 10px;
+}
+.contact>.login_div>.area{
+    margin-top: 30px;
+    width: 300px;
+    height: 100px;
+}
+.sub_btn{
+    font-weight: 600;
+    color: white;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+   border: 0;
+   border-radius: 10px;
+   background-color: red;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 13px;
+}
+.contact>.login_div>.sub_btn:hover{
+    background-color: black;
+    /* color: white; */
+    font-size: 18px;
+    border: 2px solid white;
+    transition: 1s;
+}
